@@ -30,9 +30,8 @@ export default function ToDoList() {
         <div>
             <h1>Converta números por extenso</h1>
             <form action={HandleNewValue}>
-                <CurrencyInput 
-                    decimalSeparator="," 
-                    groupSeparator="."
+                <input
+                    type="text"
                     placeholder="Digite algo"
                     onChange={HandleNewText}
                     className="pl-3 h-10 rounded text-zinc-900"
